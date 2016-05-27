@@ -1,5 +1,13 @@
-## Laracove.com Tutorial
+## Stripe Connect - Build A Marketplace
 
-From the blog post at: https://laracove.com/blog/using-laravel-and-stripe-connect (modified since then - GitHub has the newer version, though the methodology is exactly the same).
+This is no longer a 100% recommended implementation, as Laravel and the Stripe package have since exceeded the versions listed here.
 
-Email me with any questions (jason[at]laracove.com) or feel free to issue any pull requests - though this isn't a package.
+### Stripe Connect Into Laravel
+
+What this is, however, is a good example of how to integrate Stripe's Connect functionality, into Laravel.
+
+The idea being, Laravel + Stripe = A website where you can sell things, which is cool, but none of the built in Billable classes work well with Stripe's Connect API.
+
+### In the future...
+
+I'll be moving this to a supported package for Laravel, or perhaps issue a pull request on the main Laravel/Stripe Cashier package, but for now, it remains just an example of how I configured the Laravel and normal Stripe APIs together to build a marketplace.
